@@ -1,0 +1,35 @@
+Crea una nueva rama
+
+$ git branch newbranch  
+1
+Luego verifique si la rama se creó correctamente
+
+$ git branch 
+1
+Luego cambia a tu nueva sucursal
+
+$ git checkout newbranch
+1
+Luego confirme sus cambios a la nueva rama
+
+$ git add . 
+$ git commit -m "18.03.01"
+1
+2
+Luego, git status verifica si es exitoso
+
+Luego cambia a la rama principal
+
+$ git checkout master 
+1
+Luego combine los cambios enviados por la nueva rama a la rama principal
+
+$ git merge newbranch  
+1
+Entonces puedes presionar el código
+
+$ git push -u origin master
+1
+Finalmente, puede eliminar esta rama
+
+$ git branch -D newbranch
